@@ -1,0 +1,39 @@
+Body {
+    display: grid;
+    place-items: center;
+    background-color: rgb(190, 190, 190);
+}
+h1 {
+    font-size: 25pt;
+    font-weight: bold;
+    text-shadow: 6pt 6pt 6pt;
+    color: black;
+}
+h2 {
+    font-size: 15pt;
+    color:rgb(77, 77, 77)
+}
+p {
+    font-size: 12pt ;
+    transition: .6s;
+}
+p:hover {
+    font-size: 25pt;
+    text-shadow: 6pt 6pt 6pt black;
+    color: rgb(27, 27, 27);
+}
+
+p.Fim {
+    font-size: 18pt;
+    transition: 1s;
+}
+p.Fim:hover {
+    font-weight: bolder;
+    font-size: 25pt;
+    text-shadow: 3pt 6pt 6pt black;
+    color: yellow;
+}
+
+div.div1 {
+    place-items: right;
+}
