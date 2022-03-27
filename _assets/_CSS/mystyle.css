@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../_Fonts/Roboto/Roboto-Regular.ttf');
+}
+
+
+Body {
+    font-family: 'Roboto';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-image: url("../_imagens/background.jpg");
+    background-position: center top;
+    background-size: 100%;
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: bold;
+    text-shadow: 3px 3px 9px rgb(135, 156, 247);
+    color: rgb(255, 255, 255);
+}
+
+div.index1{
+    width: 60%;
+}
+div.index1 h1{
+    text-align: center;
+}
+div.index1 p{
+    font-size: 25pt;
+    text-align: justify;
+    color: rgba(204, 207, 0, 0.9);
+    text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.9);
+    text-indent: 5%;
+    padding: 10px;
+}
+
+nav.menu {
+    display: inline-block;
+}
+
+nav.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: -25px;
+    left: auto;
+    right: auto;
+}
+nav.menu li{
+    font-size: 13pt;
+    display: inline-block;
+    background-color: rgba(122, 122, 255, 0.1);
+    padding: 10px;
+    margin: 2px;
+    transition:all 0.6s;
+    border-radius: 10px;
+}
+nav.menu li:hover { 
+    font-size: 19pt;
+    background-color: rgba(226, 255, 119, 0.1);
+    text-shadow: 6px 6px 5px black;
+}
+nav.menu a {
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+    transition: all 0.6s;
+}
+nav.menu a:hover {
+    color: white;
+}
+footer{
+    border-top: 1px solid rgba(112, 112, 112, 0.7);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 87%;
+    font-size: 15pt;
+    margin-top: 6%;
+}
+
+footer a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgba(6, 197, 255, 0.9);
+    transition: .6s;
+}
+footer a:hover{
+    font-size: 18pt;
+    color: rgba(238, 110, 255, 0.9);
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+}

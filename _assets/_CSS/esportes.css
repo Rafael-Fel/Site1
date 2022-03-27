@@ -1,0 +1,41 @@
+h1{
+    display: flex;
+    text-align: center;  
+}
+
+h2 {
+    font-size: 25pt;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+a.itemlista{
+    text-decoration: none;
+    transition: .6s;
+}
+
+div.listaesporte{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    transition: .6s;
+}
+
+div.listaesporte li{
+    width: 80%;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(35, 38, 255, 0.2);
+    font-size: 0pt;
+    margin: 6% 1% 6% 1%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(76, 124, 255, 0.3);
+    transition: .6s;
+}
+
+div.listaesporte li:hover{
+    background-color: rgba(35, 38, 255, 0.6);
+    font-size: 25pt;
+    width: 90%;
+    color: rgba(251, 255, 0, 0.8);
+    text-shadow: 9px 6px 6px rgba(0, 0, 0, 0.7);
+}

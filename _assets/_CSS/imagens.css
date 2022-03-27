@@ -1,0 +1,112 @@
+p#tituloimg{
+    color: rgba(229, 255, 0, 0.8);
+    font-size: 15pt;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.containerimg {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-right: 10%;
+}
+.containerimg div.terra{
+    background-image: url("../_imagens/Terra.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 20%;
+    text-align: center;
+    color: rgba(203, 223, 19, 0);
+    transition: .6s;
+    
+}
+.containerimg div.terra:hover{
+    background-size: 340px;
+    width: 300px;
+    height: 300px;
+    font-size: 20pt;
+    color: rgba(229, 255, 0, 0.8);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.containerimg div.lua{
+    background-image: url("../_imagens/Lua.jpg");
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: 155px;
+    border: none;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    text-align: center;
+    color: rgba(203, 223, 19, 0);
+    transition: .6s;
+}
+.containerimg div.lua:hover{
+    background-size: 290px;
+    width: 270px;
+    height: 270px;
+    font-size: 20pt;
+    color: rgba(229, 255, 0, 0.8);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.containerimg div.sol{
+    background-image: url("https://super.abril.com.br/wp-content/uploads/2021/08/SI_430_ORCL_Sol_site.jpg?quality=90&strip=info&w=1024");
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: 800px;
+    border: none;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 6px 6px 6px rgba(203, 223, 19, 0.5);
+    margin-right:  200px;
+    text-align: center;
+    color: rgba(203, 223, 19, 0);
+    transition: .6s;
+}
+.containerimg div.sol:hover{
+    background-size: 1000px;
+    width: 500px;
+    height: 500px;
+    font-size: 30pt;
+    color: rgba(229, 255, 0, 0.8);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+span {
+    display: flex;
+    margin-top: -45px;
+}
+div.lua span{
+    display: flex;
+    margin-top: -70px;
+}
+span p:hover{
+    text-indent: 3px;
+    margin: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+a.fig{
+    text-decoration: none;
+    color: rgba(70, 104, 255, 0.8);
+    font-size: 18pt;
+    text-shadow: 3px 3px 3px rgba(2, 2, 2, 0.7);
+    transition: .6s;
+}
+a.fig:hover{
+    font-size: 22pt;
+    color: rgba(157, 0, 224, 0.7);
+    text-decoration: underline;
+    background-color:rgba(157, 0, 224, 0.1);
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 6px 6px 6px rgba(2, 2, 2, 0.7);
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../_assets/_CSS/mystyle.css">
+    <link rel="stylesheet" href="../_assets/_CSS/cotato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <a href="../index.html"><li>Home</li></a>
+            <a href="bibliografia.html"><li>Bibliografia</li></a>
+            <a href="dados.html"><li>DadosPessoais</li></a>
+            <a href="esportes.html"><li>Esportes</li></a>
+            <a href="flexbox.html"><li>Flexbox</li></a>
+            <a href="imagens.html"><li>Imagens</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+        </ul>
+    </nav>
+    <div class="containerform">
+        <h1>Formulário para contato :</h1>
+        <fieldset>
+        <legend>Dados do Usuário</legend>
+        <form class="formulario" action="" method="post">
+            <label>
+                Nome: 
+                <input type="text" name="Nome do Remetente" size="20" maxlength="80" placeholder="Nome Copleto.">
+            </label> <br />
+            <label>
+                Email:
+                <input type="email" name="Email do Remetente" size="30" maxlength="40" placeholder="Digite seu E-mail.">
+            </label> <br />
+            <label>
+                Senha:
+                <input type="password" name="Senha do Remetente" size="8" maxlength="8" placeholder="6~8 Digitos">
+            </label> <br>
+            <fieldset>
+                <legend> Gênero </legend>
+                <label>
+                    <input type="radio" name="genero" value="masculino" checked>
+                    Masculino
+                </label> <br> 
+                <label>
+                    <input type="radio" name="genero" value="feminino"> 
+                    Feminino 
+                </label>
+            </fieldset> <br>
+                <label>Data de Nascimeto:
+                 <input type="date">
+                </label>
+        </fieldset>    
+        <fieldset>
+            <legend> Interesses </legend>
+            <label>
+                <input type="checkbox" name="interesses" value="programação-backend">
+                Proramação BackEnd 
+            </label><br>
+            <label>
+                <input type="checkbox" name="interesses" value="programação-frontend">
+                Proramação FrontEnd
+            </label> <br>
+            <label>
+                <input type="checkbox" name="interesses" value="infraestrutura">
+                Infraestrutura 
+            </label> <br>
+            <label>
+                <input type="checkbox" name="interesses" value="redes">
+                Redes
+            </label> <br>
+            <label>
+                <input type="checkbox" name="interesses" value="gestao">
+                Gestão de Projetos
+            </label> 
+        </fieldset>
+        <fieldset>
+            <legend>Você gostaria de receber e-mails?</legend>
+            <label>
+                <input type="radio" name="receber-email" value="sim">Sim
+            </label>
+            <label>
+                <input type="radio" name="receber-email" value="nao">Não
+            </label> 
+        </fieldset>
+        <fieldset>
+            <legend>Endereço do Usuário</legend>
+             <br>
+            <label>
+                Estado:
+                <select name="estado">
+                    <optgroup label="Região Sudeste">
+                        <option value="RJ" selected>Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                      </optgroup>
+                      <optgroup label="Região Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+                </select>
+            </label><br>
+            <label>
+                Cidade:
+                <input type="text" name="cidade" id="cidade" maxlength="50" size="20" placeholder="Sua Cidade" list="cidades">
+                    <datalist id="cidades">
+                        <option value="Niterói"></option>
+                        <option value="Rio de Janeiro"></option>
+                        <option value="Angra dos Reis"></option>
+                        <option value="Cabo Frio."></option>
+                    </datalist>
+                <br>
+                <label> <span class="logradouro">
+                    Logradouro:
+                    <input type="text" name="logradouro"  size="23" maxlength="60" placeholder="Rua, Avenida, Travessa.. complento">
+                </label>
+                <label>
+                    Numero:
+                    <input type="number" name="numero" min="1" max="999999" placeholder="Residência">
+                </label> </span>
+            </fieldset>
+             <fieldset class="msgrecado">
+                <legend> Deixe seu recado:</legend>
+                    <textarea rows="10" cols="40" placeholder="Digite seu recado aqui!"></textarea>
+            </fieldset> <br>
+            <input class="botao" type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer>
+        <p>
+            Copyright &copy; 2022 - by Rafael Barreto <br>
+            <a href="https://github.com/Rafael-Fel" target="blank">Github</a> | <a href="" target="blank">Git</a>
+        </p>
+    </footer>
+</body>
+</html>
