@@ -16,6 +16,7 @@ p#tituloimg{
     background-image: url("../_imagens/Terra.jpg");
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: 225px;
     border:none;
     border-radius: 50%;
     width: 200px;
